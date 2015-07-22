@@ -1,0 +1,30 @@
+<html>
+   <head>
+      <title>Login Page</title>
+      <link rel="stylesheet" type="text/css" href="mystyles.css" />
+      <script type="text/javascript" src="./loginCheck.js"></script>
+   </head>
+   <body>
+      <h1 class = "head">PPA July Intake AFL</h1>
+      <table align = "center" class = "head">
+         <form onsubmit = "return checkLogin();" action = "login.php" method = "post">
+            <tr>
+               <td colspan= "2">Please enter user name and password</td> 
+            </tr>
+            <tr>
+               <td>User Name: </td>
+               <td><input type = "text" name = "name" id = "name" ></td>
+               <td><div class ="error" id = "nameError">Required:Please enter username.</div></td>
+            </tr>
+            <tr>
+               <td>Password: </td>
+               <td><input type = "password" name ="password" id = "password"></td>
+              <td><div class ="error" id = "passwordError">Required:Please enter password.</div></td>
+            </tr>
+            <tr>
+               <td><input type = "submit" name = "submit" value = "Submit"></td>
+            </tr>
+         </form>
+      </table>
+   </body>
+<html>

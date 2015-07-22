@@ -1,0 +1,106 @@
+ insert into Footy.team (name) values ("North Melbourne");
+ insert into Footy.team (name) values ("Carlton");
+ insert into Footy.team (name) values ("Western Bulldogs");
+ insert into Footy.team (name) values ("West Coast Eagles");
+ insert into Footy.team (name) values ("Geelong Cats");
+ insert into Footy.team (name) values ("Melbourne");
+ insert into Footy.team (name) values ("Gold Coast Suns");
+ insert into Footy.team (name) values ("St. Kilda");
+ insert into Footy.team (name) values ("Fremantle");
+ insert into Footy.team (name) values ("Hawthorn");
+ insert into Footy.team (name) values ("Collingwood");
+ insert into Footy.team (name) values ("Essendon");
+ insert into Footy.team (name) values ("Adelaide Crows");
+ insert into Footy.team (name) values ("Port Adelaide");
+ insert into Footy.team (name) values ("Gold coast suns");
+ insert into Footy.team (name) values ("Sydney");
+ insert into Footy.team (name) values ("Brisbane");
+
+week4 Round 19
+
+insert into Footy.game (team_one, team_two,week_no) values ("North Melbourne","Carlton",4);
+insert into Footy.game (team_one, team_two,week_no) values ("Western Bulldogs","West Coast Eagles",4);
+insert into Footy.game (team_one, team_two,week_no) values ("Geelong Cats","Melbourne",4);
+insert into Footy.game (team_one, team_two,week_no) values ("Gold Coast Suns","St. Kilda",4);
+insert into Footy.game (team_one, team_two,week_no) values ("Fremantle","Hawthorn",4);
+insert into Footy.game (team_one, team_two,week_no) values ("Collingwood","Essendon",4);
+insert into Footy.game (team_one, team_two,week_no) values ("Adelaide Crows","Port Adelaide",4);
+
+week5 Round 20
+
+insert into Footy.game (team_one, team_two,week_no) values ("St Kilda","Fremantle",5);
+insert into Footy.game (team_one, team_two,week_no) values ("Carlton","Melbourne",5);
+insert into Footy.game (team_one, team_two,week_no) values ("Geelong","Gold coast suns",5);
+insert into Footy.game (team_one, team_two,week_no) values ("Essendon","Sydney",5);
+insert into Footy.game (team_one, team_two,week_no) values ("Port Adelaide","Collingwood",5);
+insert into Footy.game (team_one, team_two,week_no) values ("Brisbane","Adelaide crows",5);
+insert into Footy.game (team_one, team_two,week_no) values ("Hawthorn","North Melbourne",5);
+insert into Footy.game (team_one, team_two,week_no) values ("West Coast Eagles","Richmond",5);
+
+week6 Round 21
+
+insert into Footy.game (team_one, team_two,week_no) values ("St Kilda","Collingwood",6);
+insert into Footy.game (team_one, team_two,week_no) values ("Hawthorn","Port Adelaide",6);
+insert into Footy.game (team_one, team_two,week_no) values ("Fremantle","Carlton",6);
+insert into Footy.game (team_one, team_two,week_no) values ("Western Bulldogs","Essendon",6);
+insert into Footy.game (team_one, team_two,week_no) values ("Brisbane","Gold Coast Suns",6);
+insert into Footy.game (team_one, team_two,week_no) values ("Melbourne","West Coast Eagles",6);
+insert into Footy.game (team_one, team_two,week_no) values ("Richmond","Sydney Swans",6);
+insert into Footy.game (team_one, team_two,week_no) values ("Adelaide Crows","Geelong Cats",6);
+
+week7 Round 22
+
+insert into Footy.game (team_one, team_two,week_no) values ("Carlton","Hawthorn",7);
+insert into Footy.game (team_one, team_two,week_no) values ("Gold Coast Suns","Adelaide Crows",7);
+insert into Footy.game (team_one, team_two,week_no) values ("West Coast eagles","Essendon",7);
+insert into Footy.game (team_one, team_two,week_no) values ("North Melbourne","Fremantle",7);
+insert into Footy.game (team_one, team_two,week_no) values ("Collingwood","Brisbane",7);
+insert into Footy.game (team_one, team_two,week_no) values ("Sydney swans","St kilda",7);
+insert into Footy.game (team_one, team_two,week_no) values ("Port Adelaide","Western Bulldog",7);
+insert into Footy.game (team_one, team_two,week_no) values ("Melbourne","Richmond",7);
+
+week8 Round 23
+
+insert into Footy.game (team_one, team_two,week_no) values ("Fremantle","Collingwood",8);
+insert into Footy.game (team_one, team_two,week_no) values ("Hawthorn","Western Bulldog",8);
+insert into Footy.game (team_one, team_two,week_no) values ("Geelong","Sydney",8);
+insert into Footy.game (team_one, team_two,week_no) values ("St kilda","North Melbourne",8);
+insert into Footy.game (team_one, team_two,week_no) values ("Brisbane","West Coast Eagles",8);
+insert into Footy.game (team_one, team_two,week_no) values ("Adelaide","Richmond",8);
+insert into Footy.game (team_one, team_two,week_no) values ("Melbourne","Gold Coast",8);
+insert into Footy.game (team_one, team_two,week_no) values ("Essendon","Port Adelaide",8);
+
+
+week9 Round 24
+
+insert into Footy.game (team_one, team_two,week_no) values ("Carlton","St kilda",9);
+insert into Footy.game (team_one, team_two,week_no) values ("Port Adelaide","Melbourne",9);
+insert into Footy.game (team_one, team_two,week_no) values ("Western Bulldog","Fremantle",9);
+insert into Footy.game (team_one, team_two,week_no) values ("Sydeny","Brisbane",9);
+insert into Footy.game (team_one, team_two,week_no) values ("West coast eagles","Adelaide",9);
+insert into Footy.game (team_one, team_two,week_no) values ("Collingwood","Geelong",9);
+insert into Footy.game (team_one, team_two,week_no) values ("Richmond","North Melbourne",9);
+insert into Footy.game (team_one, team_two,week_no) values ("Gold Coast","Hawthorn",9);
+
+
+insert into Footy.people (name,password,status) values ("dan","1234",0);
+insert into Footy.people (name,password,status) values ("ruby","1234",0);
+insert into Footy.people (name,password,status) values ("chen","1234",0);
+insert into Footy.people (name,password,status) values ("sen","1234",0);
+insert into Footy.people (name,password,status) values ("dennis","1234",0);
+insert into Footy.people (name,password,status) values ("denise","1234",0);
+insert into Footy.people (name,password,status) values ("linda","1234",0);
+insert into Footy.people (name,password,status) values ("tapan","1234",0);
+insert into Footy.people (name,password,status) values ("rosh","1234",0);
+insert into Footy.people (name,password,status) values ("amy","1234",0);
+insert into Footy.people (name,password,status) values ("patrick","1234",0);
+insert into Footy.people (name,password,status) values ("anthony","1234",0);
+insert into Footy.people (name,password,status) values ("dee","1234",0);
+insert into Footy.people (name,password,status) values ("fred","1234",0);
+insert into Footy.people (name,password,status) values ("echo","1234",0);
+insert into Footy.people (name,password,status) values ("syed","1234",0);
+insert into Footy.people (name,password,status) values ("ralgh","1234",0);
+insert into Footy.people (name,password,status) values ("ajith","1234",0);
+insert into Footy.people (name,password,status) values ("leo","1234",0);
+insert into Footy.people (name,password,status) values ("tony","1234",0);
+insert into Footy.people (name,password,status) values ("gaya","1234",0);
